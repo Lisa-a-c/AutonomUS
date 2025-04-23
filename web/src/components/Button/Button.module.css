@@ -1,0 +1,31 @@
+.btn{
+    width: 170px;
+    height:3rem;
+    font-size: 1rem;
+    border-radius: 40px;
+    border: none;
+    background-color: #FFC300;
+    color: rgb(0, 0, 0);
+    transition:0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #000000;;
+    color: #ffffff;
+}
+
+ .outroBtn{
+    width: 220px;
+    height:3.5rem;
+    font-size: 1.2rem;
+    border-radius: 40px;
+    border: none;
+    background-color: #FFC300;
+    color: rgb(0, 0, 0);
+    transition:0.3s ease-in-out;
+}
+
+.outroBtn:hover{
+    background-color: #000000;
+    color: #ffffff;
+} 

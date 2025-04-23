@@ -1,0 +1,115 @@
+.sessao1{
+    display: flex;
+    width: auto;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.banner_sessao1{
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/assets/landing-page.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    background-size: cover;
+
+    flex: 1 1 0px;
+    width: 100%;
+    display: flex;
+    padding: 180px 150px;
+    justify-content: space-between;
+}
+
+.banner_sessao1 > img{  
+    width: 100%;
+    height: 100%;    
+}
+
+
+
+div.sessao2{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+
+}
+
+.caixa1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.caixa1 div {
+    width: 70%;
+}
+
+.caixa1 h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: white;
+}
+
+.caixa1 p{
+    color: white;
+}
+
+.caixa1 h1 span{
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: #E6A61A;
+}
+
+.caixa2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.caixa2 h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    width: 85%;
+}
+
+.caixa2 ol{
+    padding-inline-start: 20px;
+
+}
+
+.caixa2 h2 span{
+    color: #E6A61A;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.caixa2 li{
+    color: white;
+    padding: 0;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+
+.glass{
+    padding: 30px 50px;
+    width: 600px;
+    backdrop-filter: blur(4px) saturate(200%);
+    -webkit-backdrop-filter: blur(4px) saturate(200%);
+    background-color: rgba(56, 65, 67, 0.63);
+
+    display: flex;
+    flex-direction: column;
+
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 59px;
+    border-color: #E6A61A;
+}
+
