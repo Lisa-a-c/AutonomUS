@@ -1,4 +1,6 @@
+import { useNavigate } from 'react-router-dom'
 import { btn, outroBtn } from "./Button.module.css"
+
 
 /* const props = {
     text: "Quero ser profissional"
@@ -12,14 +14,21 @@ console.log(text)
  */
 
 
-     function Button({text, variante}){
-        return (
-            <button className={variante === 'outroBtn' ? outroBtn : btn}>
-                {text}
-            </button> 
-        )
-    }  
-
+function Button({ text, variante, to }) {
+    const navigate = useNavigate();
+  
+    const buttonClick = () => {
+      if (to) {
+        navigate(to); 
+      }
+    };
+  
+    return (
+      <button onClick={buttonClick} className={variante === 'outroBtn' ? outroBtn : btn}>
+        {text}
+      </button> 
+    );
+  }
 
 /* 
 function Button({text}){
@@ -29,3 +38,4 @@ function Button({text}){
 }  */ 
 
 export default Button
+

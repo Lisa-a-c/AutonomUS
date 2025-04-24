@@ -1,7 +1,7 @@
 import './App.css'
-import Header from './components/Header/Header'
-import Hero from './components/Hero'
-import HeaderMobile from './components/HeaderMobile/HeaderMobile'
+import Header from '../../components/Header/Header'
+import Hero from '../../components/Hero'
+import HeaderMobile from '../../components/HeaderMobile/HeaderMobile'
 import { useMediaQuery } from "@uidotdev/usehooks"
 
 function App() {

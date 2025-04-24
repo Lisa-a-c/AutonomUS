@@ -15,7 +15,7 @@ function Header() {
             <div className={container}>
                 <div className={caixa1}>
                     <img src="/src/assets/Logo.svg" alt="logo" className={logo} />
-                    <Link>Contato</Link>
+                    <Link >Contato</Link>
                     <Link direcao="#sessao2">Saiba mais</Link>
                     <Link>Encontre profissionais<FlechaIcon/></Link>
                     <Link>Encontre trabalhos </Link>
@@ -23,7 +23,7 @@ function Header() {
                 <div className={caixa2}>
                     <InputText icon={<BuscarIcon/>} placeholder="pesquise uma categoria"/>
                     <Link><LoginIcon/>Entrar</Link>
-                    <Button text="Cadastrar" variante="btn"/>
+                    <Button to="/cadastro" text="Cadastrar" variante="btn"/>
                 </div>
             </div>
         </header>
