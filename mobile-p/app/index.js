@@ -1,27 +1,27 @@
-import { Text, View, StyleSheet } from "react-native";
+import React from 'react';
+import { Text, View, StyleSheet } from 'react-native';
 import { Image } from 'expo-image';
 
 const logo = require('@/assets/images/logoAUTONOMUS.png');
 const nome = require('@/assets/images/nomeLogo.png');
 
-// estrutura da tela
+// Estrutura da tela
 export default function Index() {
   return (
     <View style={styles.container}> 
-     <View style={styles.imageContainer}>
+      <View style={styles.imageContainer}>
         <Image source={logo} style={styles.logo} />
       </View>
       <View style={styles.imageContainer}> 
-      <Image source={nome} style={styles.nome} />
+        <Image source={nome} style={styles.nome} />
       </View>
-        <Text style={styles.text}>Sua ponte entre demanda e solução</Text>
+      <Text style={styles.text}>Sua ponte entre demanda e solução</Text>
     </View>
   );
 }
 
-//Desing 
-const styles =  StyleSheet.create( {
-
+// Design 
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
@@ -34,23 +34,22 @@ const styles =  StyleSheet.create( {
     fontSize: 15,
   },
   
-  button : {
+  button: {
     fontSize: 20,
-    color:'#FFC100',
+    color: '#FFC100',
     textDecorationLine: 'underline',
-    
   },
-  //imagens 
+  
+  // Imagens 
   logo: {
     width: 159,
     height: 131,
   },
   nome: {
-    width:269,
-    height:52,
+    width: 269,
+    height: 52,
   },
   imageContainer: {
     flex: 1,
   },
-
 });
