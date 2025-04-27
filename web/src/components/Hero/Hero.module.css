@@ -1,10 +1,13 @@
 .sessao1{
     display: flex;
     width: auto;
-    height: 70vh;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+
+    @media screen and (min-width:1200px){
+        padding: 30px;
+        height: 70vh;
+    }
 }
 
 .banner_sessao1{
@@ -13,28 +16,25 @@
     background-image: url("/src/assets/landing-page.svg");
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 30px;
     background-size: cover;
+    gap:25px;
 
     flex: 1 1 0px;
     width: 100%;
     display: flex;
-    padding: 180px 150px;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 1200px){
+        padding: 180px 150px;
+        flex-wrap: nowrap;
+        border-radius: 30px;
+    }
 }
 
 .banner_sessao1 > img{  
     width: 100%;
     height: 100%;    
-}
-
-
-
-div.sessao2{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-
 }
 
 .caixa1{
@@ -46,22 +46,35 @@ div.sessao2{
 
 .caixa1 div {
     width: 70%;
+
+    @media screen and (min-width:1200px){
+        width: 80%;
+    }
 }
 
 .caixa1 h1{
-    font-size: 3rem;
+    font-size: 36px;
     margin-bottom: 0;
     color: white;
+
+    @media screen and (min-width:1200px){
+        font-size: 3rem;
+    }
 }
 
 .caixa1 p{
     color: white;
+
 }
 
 .caixa1 h1 span{
-    font-size: 3rem;
+    font-size: 36px;
     margin-bottom: 0;
     color: #E6A61A;
+
+    @media screen and (min-width:1200px){
+        font-size: 3rem;
+    }
 }
 
 .caixa2{
@@ -73,9 +86,13 @@ div.sessao2{
 
 .caixa2 h2{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     width: 85%;
+
+    @media screen and (min-width:1200px){
+        font-size: 30px;
+    }
 }
 
 .caixa2 ol{
@@ -85,25 +102,34 @@ div.sessao2{
 
 .caixa2 h2 span{
     color: #E6A61A;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
+
+    
+    @media screen and (min-width:1200px){
+        font-size: 30px;
+    }
 }
 
 .caixa2 li{
     color: white;
     padding: 0;
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 16px;
+
+    @media screen and (min-width:1024px){
+        font-size: 20px;
+    }
+
 }
 
 
 .glass{
-    padding: 30px 50px;
-    width: 600px;
     backdrop-filter: blur(4px) saturate(200%);
     -webkit-backdrop-filter: blur(4px) saturate(200%);
     background-color: rgba(56, 65, 67, 0.63);
-
+    width: 80%;
+    padding: 15px;
     display: flex;
     flex-direction: column;
 
@@ -111,5 +137,11 @@ div.sessao2{
     border-style: solid;
     border-radius: 59px;
     border-color: #E6A61A;
+
+    @media screen and (min-width:1024px){
+        padding: 30px 50px;
+        min-width: 600px;
+        max-width: 600px;
+    }
 }
 

@@ -1,4 +1,4 @@
-import {sessao1, banner_sessao1, sessao2, caixa1, caixa2, glass } from "./Hero.module.css"
+import {sessao1, banner_sessao1, caixa1, caixa2, glass } from "./Hero.module.css"
 import Button from "../Button"
 
 function Hero(){    
@@ -23,12 +23,7 @@ function Hero(){
                         </ol>
                     </div>
                 </div>
-
-
             </div>
-        </div>
-        <div className={sessao2}>
-
         </div>
         </>
     )
