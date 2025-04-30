@@ -6,10 +6,10 @@ function AboutUs(){
         <>
         <div className={sessao2}>
             <div className={texto}>
-
+                <h1>Sobre nós</h1>
             </div>
             <div className={imagem}>
-
+                <img src="/src/assets/sobre-nos.png"/>
             </div>
         </div>
         </>
