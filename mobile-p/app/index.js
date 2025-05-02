@@ -2,8 +2,9 @@ import React from 'react';
 import { Text, View, StyleSheet, Pressable } from 'react-native';
 import { Image } from 'expo-image';
 import FontAwesome from '@expo/vector-icons/FontAwesome'; 
-import Button from '@/componentes/Button';
+//import Button from '@/componentes/Button';
 import { Link } from 'expo-router';
+import styles from '@/styles/IndexStyle';
 
 const logo = require('@/assets/images/logoAUTONOMUS.png');
 const nome = require('@/assets/images/nomeLogo.png');
@@ -32,64 +33,3 @@ export default function Index() {
     
   );
 }
-
-// Design 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
- 
-  text: {
-    color: '#727272',
-    fontSize: 15,
-  },
-  
-  button: {
-
-   position: 'absolute',
-   bottom: 0,
-   left: 0,
-   flex: 1 /4 ,
-   
-  },
-
-  
-  
-  // Imagens 
-  logo: {
-    width: 159,
-    height: 131,
-    contentFit: 'contain',
-  },
-  nome: {
-    width: 269,
-    height: 52,
-    contentFit: 'contain',
-  },
-  imageContainer: {
-    flex: 1/2,
-    flexDirection: "column",
-    alignItems: 'center',
-    contentFit: 'center',
-  },
-
-  //BOTAO-SETA
-  
-  buttonContainer:{
-    //flex: 1/2,
-    //flexDirection: "column",
-    alignItems: "center",
-    justifyContent:'center',
-  },
-
-buttonLabel: {
-    color: '#fff',
-    fontSize: 16,
-},
-buttonIcon: {
-    paddingRight: 8,
-},
-});
