@@ -11,6 +11,7 @@
 }
 
 .banner_sessao1{
+    position: relative;
     width: 100%;
     height: 100%;
     background-image: url("/src/assets/landing-page.svg");
@@ -22,14 +23,40 @@
     flex: 1 1 0px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
+
 
     @media screen and (min-width: 1200px){
         padding: 180px 150px;
         flex-wrap: nowrap;
         border-radius: 30px;
+        justify-content: space-between;
     }
+}
+
+.texto_inicial{
+
+    text-align: center;
+
+    @media screen and (min-width: 1200px){
+        text-align: left;
+    }
+}
+
+.banner_sessao1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2); 
+    z-index: 0;
+    border-radius: inherit;
+}
+
+.banner_sessao1 > * {
+    position: relative;
+    z-index: 1;
 }
 
 .banner_sessao1 > img{  
@@ -42,6 +69,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 30px;
+
+    @media screen and (min-width:1200px){
+        margin-top: 0px;
+    }
 }
 
 .caixa1 div {
@@ -128,14 +160,15 @@
     backdrop-filter: blur(4px) saturate(200%);
     -webkit-backdrop-filter: blur(4px) saturate(200%);
     background-color: rgba(56, 65, 67, 0.63);
-    width: 80%;
+    width: 90%;
     padding: 15px;
     display: flex;
     flex-direction: column;
+    margin: 20px 0;
 
     border-width: 1px;
     border-style: solid;
-    border-radius: 59px;
+    border-radius: 38px;
     border-color: #E6A61A;
 
     @media screen and (min-width:1024px){

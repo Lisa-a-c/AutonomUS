@@ -3,6 +3,8 @@ import Header from '../../components/Header/Header'
 import Hero from '../../components/Hero'
 import HeaderMobile from '../../components/HeaderMobile/HeaderMobile'
 import { useMediaQuery } from "@uidotdev/usehooks"
+import AboutUs from '../../components/AboutUs/AboutUs'
+
 
 function App() {
 
@@ -12,6 +14,7 @@ function App() {
     <>
       {isMobile ? <HeaderMobile/> : <Header/>}
       <Hero/>
+      <AboutUs/>  
     </>
   )
 }
