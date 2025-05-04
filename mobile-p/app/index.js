@@ -21,7 +21,7 @@ export default function Index() {
       </View>
       
       <View style={styles.buttonContainer}>
-        <Link href="/login" asChild>
+        <Link href="/introPrestador" asChild>
           <Pressable style={styles.button}>
             <FontAwesome name="arrow-right" size={35} color="#25292e" style={styles.buttonIcon} />   
           </Pressable>
