@@ -84,4 +84,14 @@ export default StyleSheet.create({
         fontSize: 15,
         textAlign: 'center',
     },
+    //RECUPERAR SENHA
+    
+    forgotContainer: {
+        flex:1,
+        alignItems: 'end',
+    },
+    forgot: {
+        color:'yellow',
+        
+    },
 })

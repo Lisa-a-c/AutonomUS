@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View, TextInput, Pressable, } from 'react-native';
 import { Image } from 'expo-image';
 import { CiMail } from "react-icons/ci";
-import styles from '@/styles/Login';
+import styles from '@/styles/LoginStyles';
 //import Button from '@/componentes/Button';
 //import { Link } from 'expo-router';
 
@@ -40,11 +40,19 @@ export default function Login() {
                 value={senha}
                 placeholder="Senha"
                 />
+                <View>
+                    <Pressable style={styles.forgotContainer}>
+                        <Text style={styles.forgot}>EQUECI MINHA SENHA</Text>
+                    </Pressable>
+                </View>
+                
                 <View style={styles.buttonContainer}>
                     <Pressable style={styles.button}>
                         <Text style={styles.text}>ENTRAR</Text>
                     </Pressable>
                 </View>
+                
+                
             </View>
           
 
