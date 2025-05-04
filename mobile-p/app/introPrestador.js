@@ -19,7 +19,11 @@ export default function intro(){
             <View className='viewimg' style={styles.viewimg}>
                 <Image source={introd} style={styles.introducao}/> 
             </View>
-            
+            <View style={styles.ViewIntro}>
+            <Text style={styles.titulo}>Descubra novas oportunidades de trabalho</Text>
+            <Text style={styles.texto}>Aqui você conecta suas habilidades diretamente com quem precisa dos seus serviços.
+                 Crie seu perfil, destaque suas especialidades e começe a receber solicitações de clientes reais.</Text>
+            </View>
             <View className='Button' style={styles.btnContainer}>
                 <Link href="/login" asChild>
                     <Pressable style={styles.button}>

@@ -49,15 +49,21 @@ export default StyleSheet.create({
 
     //VIEW INTRODUCAO
     ViewIntro:{
-       flex:1,
+       flex:12/2,
     },
     titulo: {
-        color: '#FFC100',
+        color: '#000',
+        fontSize: 18,
+        fontFamily:'Poppins, Regular',
+        padding:20,
+        textAlign: 'left',
     },
     texto: {
+        padding:20,
         color: '#36394A',
         fontFamily: 'Poppins, Regular',
         fontSize:16,
+        textAlign: 'left',
     },
 
     //VIEW BUTTON
