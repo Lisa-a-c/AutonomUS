@@ -14,7 +14,7 @@ function AboutUs(){
                     Em um único ambiente, é possível encontrar especialistas nas mais variadas áreas, prontos para atender com agilidade e responsabilidade. O processo é descomplicado: basta escolher o serviço, entrar em contato com o profissional e acompanhar a execução com tranquilidade.
                     A tecnologia é utilizada como ferramenta para aproximar pessoas, otimizar tempo e garantir uma experiência positiva em todas as etapas.
                 </p>
-                <Button text="Porque nos escolher?"/>
+                <Button text="Porque nos escolher?" variante="outroBtn"/>
             </div>
             <div className={imagem}>
                 <h1 className={titulo_mobile}>Sobre nós</h1>
