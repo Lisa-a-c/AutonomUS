@@ -40,9 +40,9 @@ export default function Login() {
                 value={senha}
                 placeholder="Senha"
                 />
-                <View>
-                    <Pressable style={styles.forgotContainer}>
-                        <Text style={styles.forgot}>EQUECI MINHA SENHA</Text>
+                <View style={styles.forgotContainer} >
+                    <Pressable style={styles.forgotBTN}>
+                        <Text style={styles.forgot}>ESQUECI MINHA SENHA</Text>
                     </Pressable>
                 </View>
                 

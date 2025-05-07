@@ -63,6 +63,7 @@ export default StyleSheet.create({
     },
 
     //BOTAO
+
     buttonContainer:{
         //flex: 1/2,
         //flexDirection: "column",
@@ -71,7 +72,6 @@ export default StyleSheet.create({
         padding: 20,
     },
     button: {
-        
         borderRadius: 10,
         width: 327,
         height: 52,
@@ -84,14 +84,19 @@ export default StyleSheet.create({
         fontSize: 15,
         textAlign: 'center',
     },
-    //RECUPERAR SENHA
-    
-    forgotContainer: {
-        flex:1,
-        alignItems: 'end',
+
+    //ESQUECI SENHA
+
+    forgotContainer:{
+        width: 327,
+        height: 10,
+
+    },
+    forgotBTN: {
+        with:100,
+        height:10,
     },
     forgot: {
-        color:'yellow',
-        
+        color: '#FFC100',
     },
 })

@@ -16,12 +16,10 @@ export default StyleSheet.create({
     },
     
     button: {
-  
      position: 'absolute',
      bottom: 0,
      left: 0,
      flex: 1 /4 ,
-     
     },
     
     // Imagens 
@@ -30,16 +28,26 @@ export default StyleSheet.create({
       height: 131,
       contentFit: 'contain',
     },
-    nome: {
-      width: 269,
-      height: 52,
-      contentFit: 'contain',
-    },
     imageContainer: {
       flex: 1/2,
       flexDirection: "column",
       alignItems: 'center',
       contentFit: 'center',
+    },
+
+    //NOME
+    nome: {
+      display:'flex',
+      width:269,
+      height:52,
+      color: '#000',
+      font: 'Inter',
+      fontSize: 40,
+    },
+    us:{
+      color: '#FFC100',
+      font: 'Inter',
+      fontSize: 40,
     },
   
     //BOTAO-SETA

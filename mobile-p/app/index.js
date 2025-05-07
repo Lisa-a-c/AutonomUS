@@ -10,14 +10,18 @@ const logo = require('@/assets/images/logoAUTONOMUS.png');
 const nome = require('@/assets/images/nomeLogo.png');
 
 // Estrutura da tela
+//testar se o texto atonomUs está funcionando
 export default function Index() {
   return (
     <View style={styles.container}> 
       
       <View style={styles.imageContainer}>
        <Image source={logo} style={styles.logo} />
-       <Image source={nome} style={styles.nome} />
-       <Text style={styles.text}>Sua ponte entre demanda e solução</Text>
+      <Text style={styles.nome}> 
+        AUTONOM
+      <Text style={styles.us}>US</Text>
+      </Text>
+      <Text style={styles.text}>Sua ponte entre demanda e solução</Text>
       </View>
       
       <View style={styles.buttonContainer}>

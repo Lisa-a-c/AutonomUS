@@ -22,7 +22,7 @@ export default function intro(){
             <View style={styles.ViewIntro}>
             <Text style={styles.titulo}>Descubra novas oportunidades de trabalho</Text>
             <Text style={styles.texto}>Aqui você conecta suas habilidades diretamente com quem precisa dos seus serviços.
-                 Crie seu perfil, destaque suas especialidades e começe a receber solicitações de clientes reais.</Text>
+            Crie seu perfil, destaque suas especialidades e começe a receber solicitações de clientes reais.</Text>
             </View>
             <View className='Button' style={styles.btnContainer}>
                 <Link href="/login" asChild>
