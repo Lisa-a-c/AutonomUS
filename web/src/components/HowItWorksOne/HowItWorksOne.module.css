@@ -1,0 +1,31 @@
+.sessao3{
+    display: flex;
+    height: 80vh;
+    background-color: #FFD154;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    justify-content: center;
+    
+}
+
+.titulo{
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 10px 40px;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 1rem;
+        padding: 10px 400px;
+    }
+}
+
+.titulo h1 span{
+    color: #E6A61A;
+}
+
+.conteudo{
+    width: 100%;
+    height: 26.67%;
+    background-color: aqua;
+}
