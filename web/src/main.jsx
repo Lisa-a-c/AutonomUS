@@ -6,6 +6,7 @@ import App from './routes/Home/App.jsx'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Cadastro from './routes/Cadastro/Cadastro.jsx'
 import TipoCadastro from './routes/TipoCadastro/TipoCadastro.jsx'
+import Login from './routes/Login/Login.jsx'
 
 
 
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
     {
     path: "tipocadastro",
     element: <TipoCadastro></TipoCadastro>
+  },
+      {
+    path: "login",
+    element: <Login></Login>
   },
 ])
 
