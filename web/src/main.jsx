@@ -5,6 +5,9 @@ import App from './routes/Home/App.jsx'
 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Cadastro from './routes/Cadastro/Cadastro.jsx'
+import TipoCadastro from './routes/TipoCadastro/TipoCadastro.jsx'
+
+
 
 
 const router = createBrowserRouter([
@@ -15,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "cadastro",
     element: <Cadastro></Cadastro>
+  },
+    {
+    path: "tipocadastro",
+    element: <TipoCadastro></TipoCadastro>
   },
 ])
 
