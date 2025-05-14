@@ -30,8 +30,12 @@ export default StyleSheet.create({
     nome: {
         width: 90,
         height: 20.45,
-        contentFit: 'contain',
-        ImageContentPosition: 'center',
+        color: '#000',
+    },
+    us: {
+        width: 90,
+        height: 20.45,
+        color: '#A0CEE1',  
     },
 
     //VIEW IMG 
@@ -72,7 +76,7 @@ export default StyleSheet.create({
         borderRadius: 10,
         width: 327,
         height: 52,
-        backgroundColor: '#FFC100',
+        backgroundColor: '#A0CEE1',
         color: '#000',
         justifyContent: 'center',
     },

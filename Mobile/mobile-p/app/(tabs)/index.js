@@ -6,7 +6,7 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { Link } from 'expo-router';
 import styles from '@/styles/IndexStyle';
 
-const logo = require('@/assets/images/logoAUTONOMUS.png');
+const logo = require('@/assets/images/logoprestador.png');
 const nome = require('@/assets/images/nomeLogo.png');
 
 // Estrutura da tela
@@ -16,7 +16,9 @@ export default function Index() {
       
       <View style={styles.imageContainer}>
        <Image source={logo} style={styles.logo} />
-       <Image source={nome} style={styles.nome} />
+        <Text styles={styles.nome}>AUTONOM 
+          <Text styles={styles.us}> US </Text> 
+        </Text>
        <Text style={styles.text}>Sua ponte entre demanda e solução</Text>
       </View>
       

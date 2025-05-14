@@ -1,14 +1,14 @@
 import React from "react";
-import { Text, View, TextInput, Pressable } from "react-native";
 import { Image } from "expo-image";
+import { Pressable, Text, TextInput, View } from "react-native";
 //import { CiMail } from "react-icons/ci";
 import styles from "@/styles/LoginStyles";
 //import Button from '@/componentes/Button';
 //import { Link } from 'expo-router';
 
 //IMAGENS
-const logo = require("@/assets/images/logoAUTONOMUS.png");
-const nome = require("@/assets/images/nomeLogo.png");
+const logo = require("@/assets/images/logoprestador.png");
+//const nome = require("@/assets/images/nomeLogo.png");
 const personagem = require("@/assets/images/CharacterLogin.png");
 
 export default function Login() {
@@ -17,13 +17,16 @@ export default function Login() {
 
   return (
     <View style={styles.container}>
+
       <View style={styles.headerContainer}>
-        <Image source={logo} style={styles.logo} />
-        <Image source={nome} style={styles.nome} />
+        <Image source={logo} styles={styles.logo}></Image>
+       
+        <Text styles={styles.nome}>AUTONOM 
+          <Text styles={styles.us}> US </Text> 
+        </Text>
       </View>
+      
       <View style={styles.view2container}>
-        <View style={styles.blur}>
-        </View>
         <Image source={personagem} style={styles.personagem} />
       </View>
 

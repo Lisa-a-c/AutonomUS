@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 
-// Design 
+ 
 export default StyleSheet.create({
     container: {
       flex: 1,
@@ -24,7 +24,7 @@ export default StyleSheet.create({
      
     },
     
-    // Imagens 
+    // HEADER 
     logo: {
       width: 159,
       height: 131,
@@ -33,8 +33,13 @@ export default StyleSheet.create({
     nome: {
       width: 269,
       height: 52,
-      contentFit: 'contain',
+      color: '#000',
     },
+    us: {
+      width: 269,
+      height: 52,
+      color:'#A0CEE1',
+      },
     imageContainer: {
       flex: 1/2,
       flexDirection: "column",
