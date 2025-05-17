@@ -1,18 +1,8 @@
 import { link, icon_style } from "./Link.module.css"
-import { useNavigate } from "react-router-dom"
 
-function Link({ children, icon, to }) {
-
-    const navigate = useNavigate();
-  
-    const linkClick = () => {
-      if (to) {
-        navigate(to); 
-      }
-    };
-
+function Link({ children, icon }) {
     return (
-        <a onClick={linkClick} className={link}>
+        <a className={link}>
             {/* <span className={icon_style}>{icon}</span> */}
             { children }
         </a>    
