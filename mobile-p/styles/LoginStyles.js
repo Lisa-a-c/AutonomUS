@@ -29,8 +29,12 @@ export default StyleSheet.create({
     nome: {
         width: 90,
         height: 20.45,
-        contentFit: 'contain',
-        ImageContentPosition: 'center',
+        color: '#000',
+    },
+    us:{
+        width: 90,
+        height: 20.45,
+        color: '#A0CEE1',
     },
     //VIEW 2
 
@@ -42,8 +46,12 @@ export default StyleSheet.create({
     },
     
     view2container: {
+        borderRadius: 1000,
         alignContent: 'center',
+        blurview: 100,
         flex: 8/2,
+        backgroundColor: '#FFD753',
+
     },
 
     //VIEW 3
@@ -63,7 +71,6 @@ export default StyleSheet.create({
     },
 
     //BOTAO
-
     buttonContainer:{
         //flex: 1/2,
         //flexDirection: "column",
@@ -72,10 +79,11 @@ export default StyleSheet.create({
         padding: 20,
     },
     button: {
+        
         borderRadius: 10,
         width: 327,
         height: 52,
-        backgroundColor: '#FFC100',
+        backgroundColor: '#A0CEE1',
         color: '#000',
         justifyContent: 'center',
     },
@@ -84,19 +92,15 @@ export default StyleSheet.create({
         fontSize: 15,
         textAlign: 'center',
     },
-
-    //ESQUECI SENHA
-
-    forgotContainer:{
-        width: 327,
-        height: 10,
-
-    },
-    forgotBTN: {
-        with:100,
-        height:10,
+    //RECUPERAR SENHA
+    
+    forgotContainer: {
+        flex:1,
+        alignItems: 'end',
     },
     forgot: {
-        color: '#FFC100',
+        fontWeight:'bold',
+        color:'#FFD753',
+        
     },
 })
