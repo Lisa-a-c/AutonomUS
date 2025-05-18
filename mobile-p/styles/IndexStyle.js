@@ -31,13 +31,11 @@ export default StyleSheet.create({
       contentFit: 'contain',
     },
     nome: {
-      width: 269,
-      height: 52,
+      fontSize: 40,
       color: '#000',
     },
     us: {
-      width: 269,
-      height: 52,
+      fontSize: 40,
       color:'#A0CEE1',
       },
     imageContainer: {

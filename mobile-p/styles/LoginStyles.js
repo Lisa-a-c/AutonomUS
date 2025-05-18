@@ -1,6 +1,5 @@
 import { StyleSheet } from 'react-native';
 
-
 export default StyleSheet.create({
     container: {
         flex: 1,
@@ -12,7 +11,7 @@ export default StyleSheet.create({
     //HEADER
     headerContainer: {
         padding: 30,
-        flex: 1,
+        flex: 1/5,
         flexDirection: "row",
         alignItems: 'start',
         contentFit: 'top',
@@ -23,17 +22,15 @@ export default StyleSheet.create({
         width: 25,
         height: 20.45,
         contentFit: 'contain',
-
     },
 
     nome: {
-        width: 90,
-        height: 20.45,
+    
+        fontSize: 13,
         color: '#000',
     },
     us:{
-        width: 90,
-        height: 20.45,
+        fontSize: 13,
         color: '#A0CEE1',
     },
     //VIEW 2
@@ -45,13 +42,10 @@ export default StyleSheet.create({
         ImageContentPosition: 'center',
     },
     
-    view2container: {
-        borderRadius: 1000,
+    view2container: {       
         alignContent: 'center',
-        blurview: 100,
-        flex: 8/2,
-        backgroundColor: '#FFD753',
-
+        flex: 2/5,
+        backgroundColor: '#fff',
     },
 
     //VIEW 3
@@ -59,9 +53,10 @@ export default StyleSheet.create({
     view3container: {
         alignContent: 'center',
         alignItems: 'center',
-        flex: 6/2,
+        flex: 3/5,
     },
     input: {
+        backgroundColor: '#',
         width: 327,
         height: 40,
         margin: 12,
@@ -72,7 +67,7 @@ export default StyleSheet.create({
 
     //BOTAO
     buttonContainer:{
-        //flex: 1/2,
+        flex: 4/5,
         //flexDirection: "column",
         alignItems: 'center',
         justifyContent:'center',
@@ -80,7 +75,7 @@ export default StyleSheet.create({
     },
     button: {
         
-        borderRadius: 10,
+        borderRadius: 56,
         width: 327,
         height: 52,
         backgroundColor: '#A0CEE1',
@@ -95,12 +90,18 @@ export default StyleSheet.create({
     //RECUPERAR SENHA
     
     forgotContainer: {
-        flex:1,
+        flex:5/5,
         alignItems: 'end',
+        justifyContent: 'end',
+    },
+    forgotBTN:{
+        alignItems: 'end',
+        justifyContent: 'end',
     },
     forgot: {
         fontWeight:'bold',
-        color:'#FFD753',
+        color:'#A0CEE1',
+        textAlign: 'end',
         
     },
 })

@@ -15,7 +15,7 @@ export default StyleSheet.create({
 
     headerContainer: {
         padding: 30,
-        flex: 1,
+        flex: 1/4,
         flexDirection: "row",
         alignItems: 'start',
         contentFit: 'top',
@@ -41,7 +41,7 @@ export default StyleSheet.create({
     //VIEW IMG 
 
     viewimg: {
-        flex: 10/2,
+        flex: 2/2,
         alignContent:'center',
         alignItems: 'center',
     },
@@ -53,15 +53,23 @@ export default StyleSheet.create({
 
     //VIEW INTRODUCAO
     ViewIntro:{
-       flex:1,
+       alignContent: 'center',
+       alignItems: 'center',
+       flex:3/4,
+       display:'flex',
     },
     titulo: {
-        color: '#FFC100',
+        width: 327,
+        textAlign: 'justify',
+        fontSize:18,
+        color: '#000',
     },
     texto: {
         color: '#36394A',
         fontFamily: 'Poppins, Regular',
         fontSize:16,
+        width: 327,
+        textAlign: 'justify',
     },
 
     //VIEW BUTTON
