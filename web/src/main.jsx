@@ -7,6 +7,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Cadastro from './routes/Cadastro/Cadastro.jsx'
 import TipoCadastro from './routes/TipoCadastro/TipoCadastro.jsx'
 import Login from './routes/Login/Login.jsx'
+import CadastroProfissional from './routes/CadastroProfissional/CadastroProfissional.jsx'
 
 
 
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
     path: "login",
     element: <Login></Login>
+  },
+      {
+    path: "cadastroprofissional",
+    element: <CadastroProfissional></CadastroProfissional>
   },
 ])
 
