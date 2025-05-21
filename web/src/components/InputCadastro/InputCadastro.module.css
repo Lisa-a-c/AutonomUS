@@ -1,0 +1,21 @@
+.container{
+    border: 1px solid #646464;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.input{
+    border: none;
+    width: 100%;
+}
+
+.input::placeholder{
+    font-size: 15px;
+}
+
+.input:focus{
+    outline: none;
+}

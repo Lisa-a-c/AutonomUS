@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.titulo {
+
+    width: 80%;
+    margin-top: 1.5rem;
+}
+
+
+.titulo h1 {
+    font-size: 1rem;
+
+}
+
+p.textYellow {
+    color: yellow;
+}
+
+.doistextos {
+    width: 80%;
+    font-size: 0.6rem;
+    margin-top: 0.3rem;
+}
+
+.image {
+    margin-top: 2rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imageconf {
+    width: 70%;
+    height: 70%;
+}
+
+
+.esquecerSenha {
+
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+}
+
+
+.rightMain {
+    height: 30rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.InputOne {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.InputTwo {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.InputThree {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.InputFour {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.InputFive {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.InputSix {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.InputSeven {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.InputEight {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+
+}
+
+
+.RightInput {
+    flex: 1;
+
+}
+
+.LeftInput {
+    flex: 0;
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    .titulo h1 {
+        font-size: 2rem;
+    }
+
+    .Main {
+        height: 50rem;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .leftMain {
+        flex: 50%;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .rightMain {
+        flex: 50%;
+        width: 100%;
+        margin-top: 10rem;
+    }
+
+
+    .doistextos {
+        font-size: 1.2rem;
+    }
+
+    .titulo {
+        margin-bottom: 0.8rem;
+    }
+
+    .textYellow {
+        margin-top: 0.3rem;
+    }
+}
