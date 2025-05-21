@@ -4,8 +4,8 @@
     "slug": "mobile-p",
     "version": "1.0.0",
     "orientation": "portrait",
-    
-    "scheme": "myapp",
+    "icon": "./assets/images/CharacterLogin.png",
+    "scheme": "mobilep",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d041458e-72a1-42d5-8579-85481ec7d422"
+      }
+    },
+    "owner": "jubs24"
   }
 }

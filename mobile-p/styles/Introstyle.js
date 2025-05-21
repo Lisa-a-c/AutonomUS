@@ -15,7 +15,7 @@ export default StyleSheet.create({
 
     headerContainer: {
         padding: 30,
-        flex: 1,
+        flex: 1/4,
         flexDirection: "row",
         alignItems: 'start',
         contentFit: 'top',
@@ -30,14 +30,18 @@ export default StyleSheet.create({
     nome: {
         width: 90,
         height: 20.45,
-        contentFit: 'contain',
-        ImageContentPosition: 'center',
+        color: '#000',
+    },
+    us: {
+        width: 90,
+        height: 20.45,
+        color: '#A0CEE1',  
     },
 
     //VIEW IMG 
 
     viewimg: {
-        flex: 10/2,
+        flex: 2/2,
         alignContent:'center',
         alignItems: 'center',
     },
@@ -49,21 +53,23 @@ export default StyleSheet.create({
 
     //VIEW INTRODUCAO
     ViewIntro:{
-       flex:12/2,
+       alignContent: 'center',
+       alignItems: 'center',
+       flex:3/4,
+       display:'flex',
     },
     titulo: {
+        width: 327,
+        textAlign: 'justify',
+        fontSize:18,
         color: '#000',
-        fontSize: 18,
-        fontFamily:'Poppins, Regular',
-        padding:20,
-        textAlign: 'left',
     },
     texto: {
-        padding:20,
         color: '#36394A',
         fontFamily: 'Poppins, Regular',
         fontSize:16,
-        textAlign: 'left',
+        width: 327,
+        textAlign: 'justify',
     },
 
     //VIEW BUTTON
@@ -78,7 +84,7 @@ export default StyleSheet.create({
         borderRadius: 10,
         width: 327,
         height: 52,
-        backgroundColor: '#FFC100',
+        backgroundColor: '#A0CEE1',
         color: '#000',
         justifyContent: 'center',
     },

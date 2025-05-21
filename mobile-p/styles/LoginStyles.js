@@ -1,6 +1,5 @@
 import { StyleSheet } from 'react-native';
 
-
 export default StyleSheet.create({
     container: {
         flex: 1,
@@ -12,7 +11,7 @@ export default StyleSheet.create({
     //HEADER
     headerContainer: {
         padding: 30,
-        flex: 1,
+        flex: 1/5,
         flexDirection: "row",
         alignItems: 'start',
         contentFit: 'top',
@@ -23,14 +22,16 @@ export default StyleSheet.create({
         width: 25,
         height: 20.45,
         contentFit: 'contain',
-
     },
 
     nome: {
-        width: 90,
-        height: 20.45,
-        contentFit: 'contain',
-        ImageContentPosition: 'center',
+    
+        fontSize: 13,
+        color: '#000',
+    },
+    us:{
+        fontSize: 13,
+        color: '#A0CEE1',
     },
     //VIEW 2
 
@@ -41,9 +42,10 @@ export default StyleSheet.create({
         ImageContentPosition: 'center',
     },
     
-    view2container: {
+    view2container: {       
         alignContent: 'center',
-        flex: 8/2,
+        flex: 2/5,
+        backgroundColor: '#fff',
     },
 
     //VIEW 3
@@ -51,9 +53,10 @@ export default StyleSheet.create({
     view3container: {
         alignContent: 'center',
         alignItems: 'center',
-        flex: 6/2,
+        flex: 3/5,
     },
     input: {
+        backgroundColor: '#',
         width: 327,
         height: 40,
         margin: 12,
@@ -63,19 +66,19 @@ export default StyleSheet.create({
     },
 
     //BOTAO
-
     buttonContainer:{
-        //flex: 1/2,
+        flex: 4/5,
         //flexDirection: "column",
         alignItems: 'center',
         justifyContent:'center',
         padding: 20,
     },
     button: {
-        borderRadius: 10,
+        
+        borderRadius: 56,
         width: 327,
         height: 52,
-        backgroundColor: '#FFC100',
+        backgroundColor: '#A0CEE1',
         color: '#000',
         justifyContent: 'center',
     },
@@ -84,19 +87,21 @@ export default StyleSheet.create({
         fontSize: 15,
         textAlign: 'center',
     },
-
-    //ESQUECI SENHA
-
-    forgotContainer:{
-        width: 327,
-        height: 10,
-
+    //RECUPERAR SENHA
+    
+    forgotContainer: {
+        flex:5/5,
+        alignItems: 'end',
+        justifyContent: 'end',
     },
-    forgotBTN: {
-        with:100,
-        height:10,
+    forgotBTN:{
+        alignItems: 'end',
+        justifyContent: 'end',
     },
     forgot: {
-        color: '#FFC100',
+        fontWeight:'bold',
+        color:'#A0CEE1',
+        textAlign: 'end',
+        
     },
 })

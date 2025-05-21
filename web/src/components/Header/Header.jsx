@@ -8,7 +8,6 @@ import InputText from "../InputText/InputText"
 
 
 
-
 function Header() {
     return (
         <header className={header}>
@@ -22,7 +21,7 @@ function Header() {
                 </div>
                 <div className={caixa2}>
                     <InputText icon={<BuscarIcon/>} placeholder="pesquise uma categoria"/>
-                    <Link><LoginIcon/>Entrar</Link>
+                    <Link to="/login"><LoginIcon/>Entrar</Link>
                     <Button to="/tipocadastro" text="Cadastrar" variante="btn"/>
                 </div>
             </div>
